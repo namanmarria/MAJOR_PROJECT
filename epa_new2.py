@@ -5,7 +5,7 @@ import mysql.connector as ep
 class EPHelper:
 
     def __init__(self):
-        self.connection = ep.connect(user='root', password='Q0)(qwerty',
+        self.connection = ep.connect(user='root', password='---',
                                      host='127.0.0.1',
                                      database='gw2022pd1')
         print("EP CONNECTED :)")
